@@ -1,9 +1,7 @@
-import Head from 'next/head'
 import Layout from '../components/Layout';
-import Producto from '../components/Producto';
+import Producto from '../components/Producto.js';
 import { gql, useQuery } from '@apollo/client'
 import Link from 'next/link';
-
 
 const OBTENER_PRODUCTOS = gql`
 query obtenerProductos {

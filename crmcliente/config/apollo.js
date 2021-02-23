@@ -3,7 +3,7 @@ import fetch from 'node-fetch';
 import { setContext } from 'apollo-link-context';
 // le decimos a donde se va a conectar
 const httpLink = createHttpLink({
-    uri: 'http://localhost:4000/',
+    uri: 'https://arcane-plains-19739.herokuapp.com/',
     fetch
 });
 // le agregamos un header nuevo
